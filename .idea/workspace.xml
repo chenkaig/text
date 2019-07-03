@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="017c6b71-6d05-4056-95a8-0adfc4a1353f" name="Default Changelist" comment="" />
 =======
     <list default="true" id="017c6b71-6d05-4056-95a8-0adfc4a1353f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java" afterDir="false" />
     </list>
 >>>>>>> ck
+=======
+    <list default="true" id="017c6b71-6d05-4056-95a8-0adfc4a1353f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java" afterDir="false" />
+    </list>
+>>>>>>> chenkai
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-eureka/target/" />
@@ -36,6 +42,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="207">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
 =======
@@ -57,6 +64,10 @@
             <state relative-caret-position="161">
               <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
 >>>>>>> ck
+=======
+            <state relative-caret-position="161">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+>>>>>>> chenkai
             </state>
           </provider>
         </entry>
@@ -82,6 +93,7 @@
     <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/springcloud-provider/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/springcloud-eureka/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java" root0="SKIP_INSPECTION" />
 =======
     <setting file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java" root0="SKIP_INSPECTION" />
@@ -89,11 +101,14 @@
     <setting file="file://$PROJECT_DIR$/springcloud-provider/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/springcloud-eureka/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
 >>>>>>> ck
+=======
+>>>>>>> chenkai
     <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/resources/templates/updateDialog.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/springcloud-eureka/src/main/java/com/jk/SpringcloudEurekaApplication.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/springcloud-provider/src/main/java/com/jk/SpringcloudProviderApplication.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/service-api/src/main/java/com/jk/service/NewsService.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/jk/SpringcloudConsumerApplication.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/Type.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/Author.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/jk/controller/NewsController.java" root0="SKIP_INSPECTION" />
@@ -290,20 +305,28 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="30041000" />
 =======
     <option name="totallyTimeSpent" value="29078000" />
 >>>>>>> ck
+=======
+    <option name="totallyTimeSpent" value="30489000" />
+>>>>>>> chenkai
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20416667" />
 =======
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20416667" />
 >>>>>>> ck
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20416667" />
+>>>>>>> chenkai
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -320,10 +343,14 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31567797" />
 =======
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31567797" />
 >>>>>>> ck
+=======
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31567797" />
+>>>>>>> chenkai
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32910052" />
@@ -568,12 +595,17 @@
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="207">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
 =======
         <state relative-caret-position="161">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
 >>>>>>> ck
+=======
+        <state relative-caret-position="161">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+>>>>>>> chenkai
         </state>
       </provider>
     </entry>
