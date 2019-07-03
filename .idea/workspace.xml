@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="017c6b71-6d05-4056-95a8-0adfc4a1353f" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="017c6b71-6d05-4056-95a8-0adfc4a1353f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java" afterDir="false" />
+    </list>
+>>>>>>> ck
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-eureka/target/" />
@@ -26,11 +32,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/Author.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+>>>>>>> ck
             </state>
           </provider>
         </entry>
@@ -52,10 +78,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/springcloud-provider/src/main/java/com/jk/service/NewsServiceImpl.java" root0="SKIP_INSPECTION" />
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/springcloud-provider/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/springcloud-eureka/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java" root0="SKIP_INSPECTION" />
+=======
+    <setting file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-provider/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-eureka/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+>>>>>>> ck
     <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/resources/templates/updateDialog.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/springcloud-eureka/src/main/java/com/jk/SpringcloudEurekaApplication.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/springcloud-provider/src/main/java/com/jk/SpringcloudProviderApplication.java" root0="SKIP_INSPECTION" />
@@ -256,12 +289,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="30041000" />
+=======
+    <option name="totallyTimeSpent" value="29078000" />
+>>>>>>> ck
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20416667" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20416667" />
+>>>>>>> ck
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -277,7 +319,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31567797" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31567797" />
+>>>>>>> ck
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32910052" />
@@ -521,8 +567,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="207">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+=======
+        <state relative-caret-position="161">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+>>>>>>> ck
         </state>
       </provider>
     </entry>
