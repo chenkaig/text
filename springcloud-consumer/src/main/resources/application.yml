@@ -1,0 +1,13 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: springcloud-consumer
+
+  #redis:
+   # host: 192.168.18.129
+    #port: 6379
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka

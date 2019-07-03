@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.jk.mapper.NewsMapper" >
+
+    <select id="selectCount"  resultType="java.lang.Integer">
+        select count(*)  from t_journalism j,e_user u,t_type t WHERE j.userId=u.authorId
+        AND j.typeId=t.typeId
+    </select>
+
+    <select id="selectNews"   resultType="com.jk.model.News">
+        select j.jid,j.jtitle,j.keywords,j.content,j.releaseTime,j.updateTime,u.author as author,
+        t.typeName as typeName from  t_journalism j,e_user u,t_type t WHERE j.userId=u.authorId
+         AND j.typeId=t.typeId  limit #{start},#{pageSize}
+    </select>
+
+    <select id="selectAuthor"  resultType="com.jk.model.Author">
+        select * from e_user
+    </select>
+
+    <select id="selectType"  resultType="com.jk.model.Type">
+        select  * from t_type
+    </select>
+
+    <insert id="saveNews"  parameterType="com.jk.model.News">
+        INSERT   INTO  t_journalism VALUES (#{jid},#{jtitle},#{userId},SYSDATE(),null,#{content},#{keywords},#{typeId})
+    </insert>
+
+    <select id="selectNewsById"  parameterType="java.lang.Integer"  resultType="com.jk.model.News">
+        select * from t_journalism  where jid = #{id}
+    </select>
+
+    <update id="updateNews"  parameterType="com.jk.model.News">
+        update  t_journalism  set jtitle=#{jtitle},userId=#{userId},updateTime=SYSDATE(),content=#{content},keywords=#{keywords},typeId=#{typeId}  where jid=#{jid}
+    </update>
+
+    <delete id="deleteNews"  parameterType="java.lang.Integer">
+        delete from t_journalism  where jid = #{id}
+    </delete>
+
+
+
+</mapper>

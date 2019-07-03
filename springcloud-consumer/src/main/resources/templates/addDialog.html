@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<form id="mongoForm">
+
+
+    <div>
+        标题: <input type="text" name="jtitle"    placeholder="标题">
+    </div>
+        内容: <input type="text" name="content"    placeholder="内容">
+    <div>
+        关键词: <input type="text" name="keywords"     placeholder="关键词"/>
+    </div>
+
+    <div>
+        作者: <select  id="us"  name="userId"></select>
+    </div>
+
+    <div>
+        类型: <select  id="ty"  name="typeId"></select>
+    </div>
+
+
+
+
+
+
+</form>
+
+
+<script  type="text/javascript">
+    $(function () {
+        selectAuthor();
+        selectType();
+    })
+
+
+    function selectAuthor() {
+        $.ajax({
+            url:"selectAuthor",
+            success:function(data){
+                var op="<option  value='0'>请选择";
+                for(var i=0;i<data.length;i++){
+                    op+="<option  value='"+data[i].authorId+"'>"+data[i].author;
+                }
+                $("#us").html(op);
+
+            },
+            error:function(){
+                alert("程序错误!!!");
+            },
+        });
+
+    }
+
+    function selectType() {
+        $.ajax({
+            url:"selectType",
+            success:function(data){
+                var op="<option  value='0'>请选择";
+                for(var i=0;i<data.length;i++){
+                    op+="<option  value='"+data[i].typeId+"'>"+data[i].typeName;
+                }
+                $("#ty").html(op);
+
+            },
+            error:function(){
+                alert("程序错误!!!");
+            },
+        });
+
+    }
+</script>
+
+

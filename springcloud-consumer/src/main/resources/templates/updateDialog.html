@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<form id="mongoForm">
+
+    <input type="hidden"  name="jid"  th:value="${jour.jid}">
+    <input type="hidden"    id="userId"  th:value="${jour.userId}">
+    <input type="hidden"    id="typeId"  th:value="${jour.typeId}">
+    <div>
+        标题: <input type="text" name="jtitle"  th:value="${jour.jtitle}"  placeholder="标题">
+    </div>
+    内容: <input type="text" name="content"  th:value="${jour.content}"  placeholder="内容">
+    <div>
+        关键词: <input type="text" name="keywords"  th:value="${jour.keywords}"   placeholder="关键词"/>
+    </div>
+
+    <div>
+        作者: <select  id="us"  name="userId"></select>
+    </div>
+
+    <div>
+        类型: <select  id="ty"  name="typeId"></select>
+    </div>
+
+
+</form>
+
+
+<script  type="text/javascript">
+    $(function () {
+        selectAuthor();
+        selectType();
+    })
+
+
+    function selectAuthor(){
+        var userId=$("#userId").val();
+
+
+        $.ajax({
+            url:"selectAuthor",
+            success:function(data){
+                var op="<option  value='0'>请选择";
+                for(var i=0;i<data.length;i++){
+                    op+="<option  value='"+data[i].authorId+"'>"+data[i].author;
+                }
+                $("#us").html(op);
+                if (userId!=null) {
+                    $("#us").val(userId).trigger("change");
+                }
+            },
+            error:function(){
+                alert("程序错误!!!");
+            },
+        });
+    }
+
+
+    function selectType() {
+        var typeId=$("#typeId").val();
+        $.ajax({
+            url:"selectType",
+            success:function(data){
+                var op="<option  value='0'>请选择";
+                for(var i=0;i<data.length;i++){
+                    op+="<option  value='"+data[i].typeId+"'>"+data[i].typeName;
+                }
+                $("#ty").html(op);
+                if (typeId!=null) {
+                    $("#ty").val(typeId).trigger("change");
+                }
+            },
+            error:function(){
+                alert("程序错误!!!");
+            },
+        });
+
+    }
+</script>
+
+
