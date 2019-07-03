@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="017c6b71-6d05-4056-95a8-0adfc4a1353f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,7 +28,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,25 +54,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/jk/SpringcloudConsumerApplication.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/springcloud-provider/src/main/java/com/jk/mapper/NewsMapper.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/jk/service/NewsServiceError.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/jk/service/NewsServiceFeign.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/jk/controller/NewsController.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/service-api/src/main/java/com/jk/service/NewsService.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/resources/templates/updateDialog.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/resources/templates/show.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/springcloud-provider/src/main/java/com/jk/service/NewsServiceImpl.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/jk/controller/PageController.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/service-api/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-provider/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-eureka/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/resources/templates/updateDialog.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-eureka/src/main/java/com/jk/SpringcloudEurekaApplication.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-provider/src/main/java/com/jk/SpringcloudProviderApplication.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/service-api/src/main/java/com/jk/service/NewsService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/jk/SpringcloudConsumerApplication.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/Type.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/Author.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/springcloud-provider/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/jk/controller/NewsController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/jk/service/NewsServiceError.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-provider/src/main/java/com/jk/mapper/NewsMapper.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/jk/service/NewsServiceFeign.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/service-api/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/resources/templates/show.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/jk/controller/PageController.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/News.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/springcloud-eureka/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/springcloud-provider/src/main/java/com/jk/SpringcloudProviderApplication.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/springcloud-eureka/src/main/java/com/jk/SpringcloudEurekaApplication.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -91,6 +102,7 @@
         <option value="$PROJECT_DIR$/springcloud-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud-provider/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud-consumer/src/main/java/com/jk/controller/NewsController.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java" />
       </list>
     </option>
   </component>
@@ -110,13 +122,6 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
     <option name="y" value="130" />
@@ -129,7 +134,52 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-git" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-git" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-git" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-git" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-git" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-git" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -204,15 +254,16 @@
       <workItem from="1562116774426" duration="3229000" />
       <workItem from="1562123522873" duration="792000" />
       <workItem from="1562124387550" duration="3763000" />
-      <workItem from="1562143949113" duration="599000" />
+      <workItem from="1562143949113" duration="1231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29044000" />
+    <option name="totallyTimeSpent" value="29676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -469,6 +520,13 @@
             <element signature="e#1585#1586#0" expanded="true" />
             <element signature="e#1621#1622#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jk/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
